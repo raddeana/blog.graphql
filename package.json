@@ -1,0 +1,23 @@
+{
+  "name": "blog.graphql",
+  "version": "0.0.1",
+  "description": "blog graphql services",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raddeana/blog.graphql.git"
+  },
+  "author": "Philip",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  }
+}
